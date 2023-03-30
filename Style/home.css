@@ -79,10 +79,14 @@ aside div div.sidebar ul li {
 }
 
 aside div div.sidebar-server {
-    padding: 0.2rem 0 0 1.4rem;
+    padding: 1em;
 }
 
-aside div div.sidebar-server ul li {
+aside div div.sidebar-server-content{
+    margin-top: -60px;
+}
+
+aside div div.sidebar-server-content ul li {
     margin-top: 2rem;
 }
 
