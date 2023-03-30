@@ -1,0 +1,214 @@
+html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: "Roboto", sans-serif;
+    vertical-align: baseline;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: "Roboto", sans-serif;
+    vertical-align: baseline;
+    line-height: 1;
+    background: linear-gradient( to right, #2c2f33, #99aab5 );
+}
+
+.bg {
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.window-conteudo{
+    max-width: 90rem;
+    height: 100vh;
+    padding: 1rem;
+    scroll-behavior: smooth;
+}
+
+.barra-info{
+    background-color: #1E1F22;
+    width: 100%;
+    height: 2rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.conteudo{
+    background-color: #313338;
+    width: 1200px;
+    border: 1px;
+    height: 700px;
+    display: flex;
+}
+
+aside{
+    display: block;
+}
+
+aside div.wrapper{
+    width: 10rem;
+    height: 100%;
+    background: #2B2D31;
+}
+
+aside div div.sidebar {
+    padding: 0.2rem 0 0 1.4rem;
+}
+
+aside div div.sidebar ul li {
+    margin-top: 2rem;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: "Roboto", sans-serif;
+    display: block;
+    
+}
+
+div.wrapper-content {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    font-family: "Roboto", sans-serif;
+    vertical-align: baseline;
+}
+
+section.header {
+    background: #313338;
+    display: flex;
+    height: 1rem;
+    padding: 1rem;
+    -webkit-box-shadow: 0 4px 4px -5px #000000;
+   -moz-box-shadow: 0 4px 4px -5px #000000;
+        box-shadow: 0 4px 4px -5px #000000;
+}
+
+.nome{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    color:antiquewhite;
+    font: inherit;
+    font-weight: 600;
+}
+
+section.curriculo{
+    padding: 2em;
+    overflow-y: scroll;
+    display: block;
+    margin: 0;
+    border: 0;
+    flex: 1;
+    height: 36em;
+    color: #fff
+}
+
+section.sobre{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-family: "Roboto", sans-serif;
+    vertical-align: baseline;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.barra-footer{
+    background-color: #1E1F22;
+    width: 100%;
+    height: 2rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    
+}
+
+.mensagem {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.foto-mensagem{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    float: left;
+}
+
+.nome-mensagem{
+    margin-top: 0;
+    margin-left: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.data-mensagem {
+    margin-top: 0;
+    margin-left: 1em;
+    color: rgb(161, 161, 161);
+    font-size: small;
+}
+
+.texto-mensagem {
+    margin-left: 50px;
+    margin-top: 0;
+    padding-top: -20;
+}
+
+hr{
+    border-width: 0;
+    height: 2px;
+    background-color:#333538;
+}
+
+.autor-mensagem{
+    display: flex;
+    align-items: center;
+    height: 1em;
+}
+
+section.curriculo::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  section.curriculo::-webkit-scrollbar-track {
+    background: #2B2D31;        /* color of the tracking area */
+  }
+  
+  section.curriculo::-webkit-scrollbar-thumb {
+    background-color: #1A1B1E;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid #1A1B1E;  /* creates padding around scroll thumb */
+  }
+
