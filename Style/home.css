@@ -64,11 +64,25 @@ aside div.wrapper{
     background: #2B2D31;
 }
 
+aside div.wrapper-server{
+    width: 5rem;
+    height: 100%;
+    background: #1E1F22;
+}
+
 aside div div.sidebar {
     padding: 0.2rem 0 0 1.4rem;
 }
 
 aside div div.sidebar ul li {
+    margin-top: 2rem;
+}
+
+aside div div.sidebar-server {
+    padding: 0.2rem 0 0 1.4rem;
+}
+
+aside div div.sidebar-server ul li {
     margin-top: 2rem;
 }
 
