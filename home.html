@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>Resume - Davi Trost Gouveia</title>
     <!-- Puxando StyleSheet -->
     <link rel="stylesheet" href="Style/home.css">
 
@@ -10,6 +11,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <script>
+        function sidebar_info_open() {
+            if (document.getElementById("sidebar_info").style.display !== 'none') {
+                document.getElementById("sidebar_info").style.display = "none";
+            }
+            else {
+                document.getElementById("sidebar_info").style.display = "block"
+            }
+
+        }
+    </script>
 </head>
 
 <body>
@@ -61,7 +74,7 @@
                                         position: relative;
                                         overflow: hidden;
                                         border-radius: 50%;">
-                                        <a href="https://www.linkedin.com/in/davitrostgouveia/" target="_blank">
+                                        <a href="https://github.com/davitgouveia" target="_blank">
                                             <img src="Images/github-logo.png" style="display: inline;
                                             margin: 0 auto;
                                             height: 100%;
@@ -130,17 +143,24 @@
                         </div>
                     </div>
                 </aside>
+
+
+
                 <!-- Área do Conteudo -->
                 <div class="wrapper-conteudo">
                     <section class="header">
                         <h1 class="nome"><a style="font-size:large; color:#949ba3">@</a> Davi Trost Gouveia</h1>
                         <div class="nome-status"></div>
+                        <!--Teste botao-->
+                        <button class="sidebar-info-button"
+                            onclick="sidebar_info_open()">&#9776;</button>
                     </section>
                     <!-- Conteudo -->
                     <section class="curriculo">
                         <section class="sobre">
                             <h1>Sobre</h1>
                         </section>
+
                         <div class="mensagem">
                             <div class="autor-mensagem">
                                 <img src="Images/profile.jpg" class="foto-mensagem">
@@ -201,19 +221,23 @@
                                 dictum. Pellentesque viverra nec ante non malesuada.
                                 <hr>
                             </p>
-
                         </div>
                     </section>
+                    </div>
+                    <!-- Teste sidebar direita -->
+                <div class="wrapper-personal-info" id="sidebar_info">
+                    <div class="personal-info-conteudo" style="height: 100%; width: 250px;"></div>
                 </div>
 
+                </div>
 
+                
+                <!-- Rodapé -->
+                <footer>
+                    <div class="barra-footer"></div>
+                </footer>
             </div>
-            <!-- Rodapé -->
-            <footer>
-                <div class="barra-footer"></div>
-            </footer>
         </div>
-    </div>
 
 </body>
 

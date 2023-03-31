@@ -225,6 +225,7 @@ footer{
     padding: 0;
     border: 0;
     vertical-align: baseline;
+    z-index: 10;
 }
 
 .barra-footer{
