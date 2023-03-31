@@ -4,7 +4,7 @@ html{
     border: 0;
     font-size: 100%;
     font: inherit;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Inter', sans-serif;
     vertical-align: baseline;
 }
 
@@ -14,7 +14,7 @@ body{
     border: 0;
     font-size: 100%;
     font: inherit;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Inter', sans-serif;
     vertical-align: baseline;
     line-height: 1;
     background: linear-gradient( to right, #2c2f33, #99aab5 );
@@ -38,13 +38,42 @@ body{
     scroll-behavior: smooth;
 }
 
+/*mac like bar*/
 .barra-info{
     background-color: #1E1F22;
     width: 100%;
     height: 2rem;
+    text-align: center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
+div.mac-bar{
+    display: flex;
+    align-items: center;
+    width: 4rem;
+    justify-content: space-between;
+    height: 2rem;
+    margin-left: 1rem;
+}
+
+div.mac-bar span{
+    height: 12px;
+    width: 12px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+div.mac-bar span#red{
+    background-color: #ff5f57;
+}
+div.mac-bar span#yellow{
+    background-color: #f6b42a;
+}
+div.mac-bar span#green{
+    background-color: #2acd43;
+}
+
 
 .conteudo{
     background-color: #313338;
@@ -59,9 +88,19 @@ aside{
 }
 
 aside div.wrapper{
-    width: 10rem;
+    width: 13rem;
     height: 100%;
     background: #2B2D31;
+}
+
+.barra-pesquisa{
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    margin: 7px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #1E1F22;
 }
 
 aside div.wrapper-server{
@@ -76,18 +115,21 @@ aside div div.sidebar {
 
 aside div div.sidebar ul li {
     margin-top: 2rem;
+    color: #949ba3;
 }
 
 aside div div.sidebar-server {
     padding: 1em;
+    
 }
 
 aside div div.sidebar-server-content{
-    margin-top: -60px;
+    margin-top: -30px;
+    
 }
 
 aside div div.sidebar-server-content ul li {
-    margin-top: 2rem;
+    margin-top: 15px;
 }
 
 ul{
@@ -96,11 +138,12 @@ ul{
     border: 0;
     font-size: 100%;
     font: inherit;
-    font-family: "Roboto", sans-serif;
     display: block;
+    list-style-type: none;
     
 }
 
+/*Central Content Wrapper*/
 div.wrapper-content {
     width: 100%;
     height: 40rem;
@@ -111,10 +154,10 @@ div.wrapper-content {
     border: 0;
     font-size: 100%;
     font: inherit;
-    font-family: "Roboto", sans-serif;
     vertical-align: baseline;
 }
 
+/*Content Header*/
 section.header {
     background: #313338;
     display: flex;
@@ -125,14 +168,36 @@ section.header {
         box-shadow: 0 4px 4px -5px #000000;
 }
 
+/*Sidebar Header*/
+section.header-sidebar {
+    background: #2B2D31;
+    display: flex;
+    height: 3em;
+    padding: 0;
+    -webkit-box-shadow: 0 4px 4px -5px #000000;
+   -moz-box-shadow: 0 4px 4px -5px #000000;
+        box-shadow: 0 4px 4px -5px #000000;
+}
+
+/*Name*/
 .nome{
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
-    color:antiquewhite;
+    color:rgb(255, 255, 255);
     font: inherit;
     font-weight: 600;
+}
+
+/*User Status*/
+.nome-status{
+    height: 10px;
+    width: 10px;
+    background-color: #00A561;
+    border-radius: 50%;
+    margin: 3px;
+    margin-left: 8px;
 }
 
 section.curriculo{
@@ -151,10 +216,10 @@ section.sobre{
     padding: 0;
     border: 0;
     font: inherit;
-    font-family: "Roboto", sans-serif;
     vertical-align: baseline;
 }
 
+/*App Footer*/
 footer{
     margin: 0;
     padding: 0;
@@ -172,6 +237,7 @@ footer{
     
 }
 
+/*Messages Style*/
 .mensagem {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -216,17 +282,18 @@ hr{
     height: 1em;
 }
 
+/*Scrollbar Style*/
 section.curriculo::-webkit-scrollbar {
-    width: 10px;               /* width of the entire scrollbar */
+    width: 10px;               
   }
   
   section.curriculo::-webkit-scrollbar-track {
-    background: #2B2D31;        /* color of the tracking area */
+    background: #2B2D31;        
   }
   
   section.curriculo::-webkit-scrollbar-thumb {
-    background-color: #1A1B1E;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 1px solid #1A1B1E;  /* creates padding around scroll thumb */
+    background-color: #1A1B1E;  
+    border-radius: 20px;       
+    border: 1px solid #1A1B1E;  
   }
 

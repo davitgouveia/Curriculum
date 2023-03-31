@@ -3,20 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- Puxando StyleSheet -->
     <link rel="stylesheet" href="Style/home.css">
+
+    <!-- Fonte Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="bg">
         <div class="window-conteudo">
             <div class="barra-info">
-
+                <div class="mac-bar">
+                    <span id="red"></span>
+                    <span id="yellow"></span>
+                    <span id="green"></span>
+                </div>
             </div>
             <div class="conteudo">
+                <!-- Parte esquerda "Servidores" -->
                 <aside>
                     <div class="wrapper-server">
                         <div class="sidebar-server">
-                            <div class="sidebar-server-content">~
+                            <div class="sidebar-server-content">
                                 <ul>
                                     <li style="width: 48px;
                                         height: 48px;
@@ -29,6 +40,9 @@
                                             height: 100%;
                                             width: auto;">
                                         </a>
+                                    </li>
+                                    <li>
+                                        <hr style="margin-bottom: -2px; width: 30px;">
                                     </li>
                                     <li style="width: 48px;
                                         height: 48px;
@@ -83,49 +97,46 @@
                         </div>
                     </div>
                 </aside>
+                <!-- Parte esquerda "Informações" -->
                 <aside>
                     <div class="wrapper">
+                        <section class="header-sidebar">
+                            <div class="barra-pesquisa">Bem-vindo ao meu curriculo 💻</div>
+                        </section>
                         <div class="sidebar">
                             <ul>
                                 <li>
-                                    <img src="Images/profile.jpg" style="display: block;
-                                        width: 100px;
-                                        height: 100px;
-                                        margin-left: 9px;
-                                        border-radius: 50%;
-                                        ">
-                                </li>
-                                <li style="color:white">
-                                    <a href="https://www.linkedin.com/in/davitrostgouveia/" target="_blank">
-                                        <h3>LinkedIn</h3>
-                                    </a>
-                                </li>
-                                <li style="color:white">
-                                    <a href="https://github.com/davitgouveia" target="_blank">
-                                        <h3>Github</h3>
-                                    </a>
-                                </li>
-                                <li style="color:white">
                                     <h3>Sobre</h3>
                                 </li>
-                                <li style="color:white">
+                                <li>
                                     <h3>Experiências</h3>
                                 </li>
-                                <li style="color:white">
+                                <li>
+                                    <h3>Educação</h3>
+                                </li>
+                                <li>
+                                    <h3>Sobre</h3>
+                                </li>
+                                <li>
+                                    <h3>Experiências</h3>
+                                </li>
+                                <li>
                                     <h3>Conquistas</h3>
                                 </li>
-                                <li style="color:white">
+                                <li>
                                     <h3>Contato</h3>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </aside>
-
+                <!-- Área do Conteudo -->
                 <div class="wrapper-conteudo">
                     <section class="header">
-                        <h1 class="nome"><strong><b>@</b></strong> Davi Trost Gouveia</h1>
+                        <h1 class="nome"><a style="font-size:large; color:#949ba3">@</a> Davi Trost Gouveia</h1>
+                        <div class="nome-status"></div>
                     </section>
+                    <!-- Conteudo -->
                     <section class="curriculo">
                         <section class="sobre">
                             <h1>Sobre</h1>
@@ -134,26 +145,13 @@
                             <div class="autor-mensagem">
                                 <img src="Images/profile.jpg" class="foto-mensagem">
                                 <p class="nome-mensagem">Davi</p>
-                                <p class="data-mensagem">23/03/2023</p>
-
-                            </div>
-                            <p class="texto-mensagem">Teste de Mensagem
-                                <hr>
-                            </p>
-                        </div>
-                        <div class="mensagem">
-                            <div class="autor-mensagem">
-                                <img src="Images/profile.jpg" class="foto-mensagem">
-                                <p class="nome-mensagem">Davi</p>
                                 <p class="data-mensagem">03/03/2023</p>
                             </div>
-                            <p class="texto-mensagem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec
-                                tellus egestas, vulputate nisi nec, sollicitudin ipsum. In efficitur pharetra efficitur.
-                                Morbi eleifend felis ac mauris maximus vehicula. Vestibulum ante ipsum primis in
-                                faucibus orci luctus et ultrices posuere cubilia curae; Praesent fringilla mi vitae
-                                libero accumsan aliquet. Fusce ante sapien, bibendum non cursus vel, fermentum non enim.
-                                Mauris porta interdum nunc nec aliquet. Nulla placerat justo quis congue sagittis.
-                                Aliquam erat volutpat. Donec congue nibh eu efficitur dapibus.
+                            <p class="texto-mensagem">Sou uma pessoa calma e concentrada nos objetivos da vida. Como
+                                amante e pra sempre estudante de tecnologia, estou sempre disposto a aprender novos
+                                métodos e enfrentar novos desafios. Tenho boa comunicação em Português e Inglês e
+                                atualmente estou no sétimo período de Engenharia de Computação e trabalhando com
+                                clientes ao redor do mundo como Estágiario em Suporte e Análise de Sistemas.
                                 <hr>
                             </p>
                         </div>
@@ -210,6 +208,7 @@
 
 
             </div>
+            <!-- Rodapé -->
             <footer>
                 <div class="barra-footer"></div>
             </footer>
