@@ -360,3 +360,7 @@ section.curriculo::-webkit-scrollbar {
     border: 1px solid #1A1B1E;  
   }
 
+  a {
+    text-decoration: none;
+  }
+  
