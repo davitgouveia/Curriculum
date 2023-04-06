@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resume - Davi Trost Gouveia</title>
+    <!-- Puxando StyleSheet -->
+    <link rel="stylesheet" href="Style/home.css">
+
+    <!-- Fonte Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <script>
+        function sidebar_info_open() {
+            if (document.getElementById("sidebar_info").style.display !== 'none') {
+                document.getElementById("sidebar_info").style.display = "none";
+            }
+            else {
+                document.getElementById("sidebar_info").style.display = "block"
+            }
+
+        }
+    </script>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="window-conteudo">
+            <div class="barra-info">
+                <div class="mac-bar">
+                    <span id="red"></span>
+                    <span id="yellow"></span>
+                    <span id="green"></span>
+                </div>
+            </div>
+            <div class="conteudo">
+                <!-- Parte esquerda "Servidores" -->
+                <aside>
+                    <div class="wrapper-server">
+                        <div class="sidebar-server">
+                            <div class="sidebar-server-content">
+                                <ul>
+                                    <li>
+                                        <div class="item-server">
+                                            <a href="home-enUS.html">
+                                                <img src="Images/resume-logo-white.jpg" class="image-server">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <hr style="margin-bottom: -2px; width: 30px;">
+                                    </li>
+                                    <li>
+                                        <div class="item-server">
+                                            <a href="https://www.linkedin.com/in/davitrostgouveia/" target="_blank">
+                                                <img src="Images/linkedin-logo.png" class="image-server">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-server">
+                                            <a href="https://github.com/davitgouveia" target="_blank">
+                                                <img src="Images/github-logo.png" class="image-server">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-server">
+                                            <a href="home-ptBR.html">
+                                                <img src="Images/brazil-flag.png" class="image-server"
+                                                    style="margin-left: -21%">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-server">
+                                            <a href="home-enUS.html">
+                                                <img src="Images/usa-flag.png" class="image-server">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <!-- Parte esquerda "Coversas" -->
+                <aside>
+                    <div class="wrapper-conversas">
+                        <section class="header-sidebar">
+                            <div class="barra-pesquisa">
+                                <p>Welcome to my resume! 💻</p>
+                            </div>
+                        </section>
+                        <div class="sidebar">
+                            <ul>
+                                <li>
+                                    <a href="#About">
+                                        <h3>About</h3>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#Experience">
+                                        <h3>Experience</h3>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#education">
+                                        <h3>Education</h3>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#Awards">
+                                        <h3>Awards</h3>
+                                    </a>
+                                </li>
+                                <li>
+                                    <h3>Skills</h3>
+                                    <div class="skills">
+                                        <img src="Images/html-logo-white.png" class="skills-image">
+                                        <p class="skills-name">HTML/CSS</p>
+                                    </div>
+                                    <div class="skills">
+                                        <img src="Images/python-logo.png" class="skills-image">
+                                        <p class="skills-name">Python</p>
+                                    </div>
+                                    <div class="skills">
+                                        <img src="Images/postgresql-logo.png" class="skills-image">
+                                        <p class="skills-name">PostgreSQL</p>
+                                    </div>
+                                    <div class="skills">
+                                        <img src="Images/csharp-logo-w.png" class="skills-image">
+                                        <p class="skills-name">C#</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#language">
+                                        <h3>Language</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <footer class="wrapper-footer-conversas">
+                        <div class="footer-conversas"></div>
+                    </footer>
+                </aside>
+
+
+
+                <!-- Área do Conteudo -->
+                <div class="wrapper-conteudo">
+                    <section class="header">
+                        <h1 class="nome"><a style="font-size:large; color:#949ba3">@</a> Davi Trost Gouveia</h1>
+                        <div class="nome-status"></div>
+                        <!--Teste botao-->
+                        <button class="sidebar-info-button" onclick="sidebar_info_open()">Personal Information</button>
+                    </section>
+                    <!-- Conteudo -->
+                    <section class="curriculo">
+                        <section class="about">
+                            <h1 id="About">About 🎯</h1>
+                            <hr>
+                        </section>
+
+                        <div class="mensagem">
+                            <div class="autor-mensagem">
+                                <img src="Images/profile.jpg" class="foto-mensagem">
+                                <p class="nome-mensagem">Davi</p>
+                                <p class="data-mensagem">02/03/2023</p>
+                            </div>
+                            <p class="texto-mensagem">Hi!👋 I'm calm and focused on life goals guy. As a lover and
+                                forever student of technology, I'm always eager to learn new methods and face new
+                                challenges. I have good communication skills in Portuguese and English. Currently, I'm
+                                in my seventh period of Computer Engineering and working with clients around the globe
+                                as a Support and System Analyst Intern.
+                                <hr>
+                            </p>
+                        </div>
+
+                        <section class="Experience">
+                            <h1 id="Experience">Experience 🚀</h1>
+                            <hr>
+                        </section>
+
+                        <div class="mensagem">
+                            <div class="autor-mensagem">
+                                <img src="Images/profile.jpg" class="foto-mensagem">
+                                <p class="nome-mensagem">Davi</p>
+                                <p class="data-mensagem">02/08/2023</p>
+                            </div>
+                            <p class="texto-mensagem">
+                                <b>System Analyst Intern at Lanevo 💻</b> <br><br>
+                                Currently working as a customer service professional for the company Sacoa Playcard,
+                                acting in tickets levels 1, 2, and 3, using the Zendesk platform to ensure the best
+                                possible experience for our customers, always respecting the company's SLA policies. The
+                                tickets range from software analysis, maintenance, and installation to customer
+                                questions and suggestions. In addition, I have experience in escalating tickets to full
+                                and senior analysts, creating and maintaining solutions documentation, and providing bug
+                                reproduction reports and software improvement suggestions to the development team, using
+                                the JIRA platform.
+                                <br><br>
+                                My customer service experience at Sacoa spans a global customer base, which has allowed
+                                me to improve my English communication skills and adapt solutions to the cultural and
+                                economic differences of our customers.
+                                <br><br>
+                                <b>Skills:</b> Zendesk Support · Teamwork · Customer Service · SLA
+                                (Service Level Agreement) · JIRA · Microsoft SQL Server · Python · Java · Tech Support ·
+                                Microsoft Excel
+                                <hr>
+                            </p>
+                        </div>
+
+                        <section class="education">
+                            <h1 id="education">Education 📖</h1>
+                            <hr>
+                        </section>
+
+                        <div class="mensagem">
+                            <div class="autor-mensagem">
+                                <img src="Images/profile.jpg" class="foto-mensagem">
+                                <p class="nome-mensagem">Davi</p>
+                                <p class="data-mensagem">02/24/2023</p>
+                            </div>
+                            <p class="texto-mensagem">
+                                <b>IFSP - Instituto Federal de São Paulo</b>
+                                <br>
+                                Bachelor's Degree on Computer Engineering <br>
+                                <small>Feb. 2020 - Feb. 2025</small>
+                                <br><br>
+                                <b>Skills:</b> C++ · Microsoft Office · CSS · HTML5 · PostgreSQL
+                                <hr>
+                            </p>
+
+                            <p class="texto-mensagem">
+                                <b>Cultura Inglesa</b>
+                                <br>
+                                English Language and Literature/Letters
+                                <br><br>
+                                <b>Grade:</b> Cambridge Certificate "B2 - First" English.
+                                <hr>
+                            </p>
+                        </div>
+
+                        <section class="Awards">
+                            <h1 id="Awards">Awards 🥇</h1>
+                            <hr>
+                        </section>
+
+                        <div class="mensagem">
+                            <div class="autor-mensagem">
+                                <img src="Images/profile.jpg" class="foto-mensagem">
+                                <p class="nome-mensagem">Davi</p>
+                                <p class="data-mensagem">03/03/2023</p>
+                            </div>
+                            <p class="texto-mensagem">
+                                <b>Member of the winning competitive team in the fifth InterIF Programming
+                                    Marathon</b>
+                                <br><br>
+                                MEC - Instituto Federal de Education, Ciência e Tecnologia de São Paulo<br>
+                                <small>Oct. 2022</small>
+                                <br><br>
+                                The fifth InterIF Programming Marathon is a computer programming competition aimed at
+                                students of
+                                computer science courses (technical and higher) at IFSP.
+                                Member of the winning competitive team of this competition using the Python 🐍
+                                programming
+                                language to
+                                solve problems.
+                                <br><br>
+                            </p>
+                        </div>
+
+                        <section class="language">
+                            <h1 id="language">Language 🌎</h1>
+                            <hr>
+                        </section>
+
+                        <div class="mensagem">
+                            <div class="autor-mensagem">
+                                <img src="Images/profile.jpg" class="foto-mensagem">
+                                <p class="nome-mensagem">Davi</p>
+                                <p class="data-mensagem">03/08/2023</p>
+                            </div>
+                            <p class="texto-mensagem">
+                                <b>Advanced English</b>
+                                <br><br>
+                                Cambridge "B2 - First" - English
+                                <br><br>
+                            </p>
+                        </div>
+
+                        <br><br>
+                        <hr>
+                        <i><small>This resume is a project to develop my HTML/CSS skills and it's constantly evolving as
+                                I learn new things.</small></i>
+                        <hr>
+                    </section>
+                </div>
+                <!-- Sidebar informações pessoais -->
+                <div class="wrapper-personal-info" id="sidebar_info">
+                    <div class="personal-info-conteudo">
+                        <section class="header">
+                        </section>
+                        <section class="header-personal-info">
+                        </section>
+                        <div>
+                            <img src="Images/profile.jpg" class="personal-info-image">
+                            <div class="personal-info">
+                                <h3 class="name">Davi Trost Gouveia</h3>
+                                <p class="content">System Analyst Intern at Lanevo</p>
+                                <p class="content">From Brazil 🇧🇷</p>
+                                <hr>
+                                <p class="title">BIRTHDAY</p>
+                                <p class="content">06/29/2001 - 21 Years</p>
+                                <hr>
+                                <p class="title">EMAIL</p>
+                                <p class="content">davitgouveia@gmail.com</p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Rodapé -->
+            <footer>
+                <div class="barra-footer"></div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
